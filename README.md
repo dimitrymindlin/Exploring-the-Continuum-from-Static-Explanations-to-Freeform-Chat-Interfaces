@@ -1,4 +1,4 @@
-# Exploring the Continuum from Static Explanations to Freeform Chat Interfaces
+# Continuum Backend
 
 Repository for the backend of the paper ``Exploring-the-Continuum-from-Static-Explanations-to-Freeform-Chat-Interfaces``.
 Currently working for the UCI adult census dataset as described in the paper.
