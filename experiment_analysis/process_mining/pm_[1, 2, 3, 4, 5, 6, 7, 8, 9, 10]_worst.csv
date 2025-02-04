@@ -1,0 +1,61 @@
+Case id,Activity,Timestamp
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_1,Ceteris Paribus,2024-04-11 09:23:41
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_1,Feature Ranges,2024-04-11 09:23:48
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_2,Ceteris Paribus,2024-04-11 09:24:22
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_2,Feature Ranges,2024-04-11 09:24:25
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_3,Ceteris Paribus,2024-04-11 09:25:17
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_3,Feature Ranges,2024-04-11 09:25:23
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_4,Ceteris Paribus,2024-04-11 09:25:54
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_4,Feature Ranges,2024-04-11 09:25:59
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_5,Ceteris Paribus,2024-04-11 09:26:27
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_5,Feature Ranges,2024-04-11 09:26:29
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_6,Ceteris Paribus,2024-04-11 09:26:51
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_6,Feature Ranges,2024-04-11 09:26:56
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_7,Ceteris Paribus,2024-04-11 09:27:30
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_7,Feature Ranges,2024-04-11 09:27:32
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_8,Ceteris Paribus,2024-04-11 09:27:52
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_8,Feature Ranges,2024-04-11 09:27:53
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_9,Ceteris Paribus,2024-04-11 09:28:29
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_9,Feature Ranges,2024-04-11 09:28:35
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_10,Ceteris Paribus,2024-04-11 09:28:54
+c2812d94-73f4-45ed-a24a-b96bd10bcec6_10,Feature Ranges,2024-04-11 09:28:59
+cb294c20-7917-4652-93fa-26388a04cd02_1,Most Important Features,2024-04-11 09:45:42
+cb294c20-7917-4652-93fa-26388a04cd02_1,Anchors,2024-04-11 09:45:54
+cb294c20-7917-4652-93fa-26388a04cd02_2,Feature Attributions,2024-04-11 09:46:50
+cb294c20-7917-4652-93fa-26388a04cd02_2,Ceteris Paribus,2024-04-11 09:47:12
+cb294c20-7917-4652-93fa-26388a04cd02_2,Ceteris Paribus,2024-04-11 09:47:12
+cb294c20-7917-4652-93fa-26388a04cd02_2,Feature Attributions,2024-04-11 09:47:24
+cb294c20-7917-4652-93fa-26388a04cd02_3,Counterfactuals,2024-04-11 09:48:27
+cb294c20-7917-4652-93fa-26388a04cd02_4,Least Important Features,2024-04-11 09:49:13
+cb294c20-7917-4652-93fa-26388a04cd02_4,Most Important Features,2024-04-11 09:49:18
+cb294c20-7917-4652-93fa-26388a04cd02_6,Counterfactuals,2024-04-11 09:50:12
+cb294c20-7917-4652-93fa-26388a04cd02_7,Feature Ranges,2024-04-11 09:50:53
+cb294c20-7917-4652-93fa-26388a04cd02_7,Feature Ranges,2024-04-11 09:50:53
+cb294c20-7917-4652-93fa-26388a04cd02_8,Least Important Features,2024-04-11 09:51:23
+cb294c20-7917-4652-93fa-26388a04cd02_8,Most Important Features,2024-04-11 09:51:25
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Most Important Features,2024-04-11 09:55:29
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Least Important Features,2024-04-11 09:55:39
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Feature Attributions,2024-04-11 09:55:49
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Ceteris Paribus,2024-04-11 09:56:06
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Ceteris Paribus,2024-04-11 09:56:07
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Feature Ranges,2024-04-11 09:56:15
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_1,Feature Ranges,2024-04-11 09:56:15
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_2,Most Important Features,2024-04-11 09:57:18
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_5,Counterfactuals,2024-04-11 09:58:55
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_6,Counterfactuals,2024-04-11 10:00:04
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_7,Most Important Features,2024-04-11 10:00:43
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_10,Counterfactuals,2024-04-11 10:02:14
+6133a23c-c1bc-4196-bdde-bcf0a8cafa67_10,Least Important Features,2024-04-11 10:02:18
+106f850f-65bd-4730-81aa-655e24fe4cbf_1,Most Important Features,2024-04-11 09:48:34
+106f850f-65bd-4730-81aa-655e24fe4cbf_1,Feature Attributions,2024-04-11 09:48:42
+106f850f-65bd-4730-81aa-655e24fe4cbf_1,Ceteris Paribus,2024-04-11 09:48:55
+106f850f-65bd-4730-81aa-655e24fe4cbf_1,Feature Ranges,2024-04-11 09:49:03
+106f850f-65bd-4730-81aa-655e24fe4cbf_9,Ceteris Paribus,2024-04-11 10:01:46
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_1,Most Important Features,2024-04-11 09:48:33
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_1,Counterfactuals,2024-04-11 09:48:48
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_1,Anchors,2024-04-11 09:49:13
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_1,Ceteris Paribus,2024-04-11 09:49:33
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_1,Ceteris Paribus,2024-04-11 09:49:44
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_1,Feature Ranges,2024-04-11 09:49:53
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_9,Most Important Features,2024-04-11 09:55:19
+1667c389-89a6-4ae3-a6e5-3f7de4ca3e29_9,Ceteris Paribus,2024-04-11 09:55:36

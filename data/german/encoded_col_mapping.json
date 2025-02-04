@@ -1,0 +1,41 @@
+{
+  "housingtype": {
+    "0": "free",
+    "1": "own",
+    "2": "rent"
+  },
+  "creditpurpose": {
+    "0": "business",
+    "1": "car",
+    "2": "domestic appliances",
+    "3": "education",
+    "4": "furniture/equipment",
+    "5": "radio/TV",
+    "6": "repairs",
+    "7": "vacation/others"
+  },
+  "savingaccounts": {
+    "0": "Not Disclosed / Missing",
+    "1": "little",
+    "2": "moderate",
+    "3": "quite rich",
+    "4": "rich"
+  },
+  "checkingaccount": {
+    "0": "Not Disclosed / Missing",
+    "1": "little",
+    "2": "moderate",
+    "3": "rich"
+  },
+  "joblevel": {
+    "0": "unskilled and non-resident",
+    "1": "unskilled and resident",
+    "2": "skilled",
+    "3": "highly skilled"
+  },
+  "worklifebalance": {
+    "0": "Poor",
+    "1": "Fair",
+    "2": "Good"
+  }
+}

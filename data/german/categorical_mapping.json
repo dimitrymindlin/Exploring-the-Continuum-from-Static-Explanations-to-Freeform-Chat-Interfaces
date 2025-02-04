@@ -1,0 +1,41 @@
+{
+  "3": [
+    "free",
+    "own",
+    "rent"
+  ],
+  "8": [
+    "business",
+    "car",
+    "domestic appliances",
+    "education",
+    "furniture/equipment",
+    "radio/TV",
+    "repairs",
+    "vacation/others"
+  ],
+  "4": [
+    "Not Disclosed / Missing",
+    "little",
+    "moderate",
+    "quite rich",
+    "rich"
+  ],
+  "5": [
+    "Not Disclosed / Missing",
+    "little",
+    "moderate",
+    "rich"
+  ],
+  "2": [
+    "unskilled and non-resident",
+    "unskilled and resident",
+    "skilled",
+    "highly skilled"
+  ],
+  "9": [
+    "Poor",
+    "Fair",
+    "Good"
+  ]
+}

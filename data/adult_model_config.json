@@ -1,0 +1,52 @@
+{
+  "target_col": "income",
+  "columns_to_encode": [
+    "occupation",
+    "maritalstatus"
+  ],
+  "ordinal_mapping": {
+    "income": {
+      "<=50K": 0,
+      ">50K": 1,
+      "<=50K.": 0,
+      ">50K.": 1
+    }
+  },
+  "model_params": {
+    "max_depth": [
+      3,
+      5,
+      8
+    ],
+    "min_samples_split": [
+      2,
+      3
+    ],
+    "min_samples_leaf": [
+      1,
+      2,
+      3
+    ]
+  },
+  "rename_columns": {
+    "hoursperweek": "weeklyworkinghours",
+    "educationnum": "education"
+  },
+  "drop_columns": [
+    "fnlwgt",
+    "education",
+    "sex",
+    "race",
+    "native.country",
+    "workclass",
+    "relationship"
+  ],
+  "random_search_params": {
+    "n_iter": 10,
+    "cv": 5,
+    "scoring": "accuracy",
+    "n_jobs": -1,
+    "verbose": 1
+  },
+  "dataset_path": "./adult.csv"
+}

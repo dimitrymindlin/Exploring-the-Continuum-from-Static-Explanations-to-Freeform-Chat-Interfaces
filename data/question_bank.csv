@@ -1,0 +1,8 @@
+﻿q_id;question;paraphrased;method;method_category;question_type
+top3Features;Which are the most important attributes for the outcome of the current instance?; Which attributes have the <b>biggest</b> impact on the model’s prediction for the current person?;shap/lime;Feature Importance;general
+least3Features;What features are used the least for prediction of the current instance?; Which attributes have the <b>smallest</b> impact on the model’s prediction for the current person?;shap/lime;Feature Importance;general
+shapAllFeatures;Give me a list of features and their impact for predicting the current instance.; What is the <b>strength</b> of each attribute for the current model prediction? ;shap/lime;Feature Importance;general
+counterfactualAnyChange;How should this instance change to get a different prediction? ; To <b>switch the model’s prediction</b>, which attributes would need to be different?;cfe;Counterfactual;general
+anchor;What attributes must be present or absent to guarantee this prediction?;Which group of attributes <b>most definitely predicts the current outcome</b> independently of the other attributes?;anchor;Minimal Feature Set;general
+ceterisParibus;What if I changed the value of a feature?; What happens if the <b>value</b> of [feature selection] <b>is changed</b>, keeping all the other attributes the same?;Ceteris Paribus;Feature Change;feature
+featureStatistics;Is the current value of feature high or low?; How are the different values of [feature selection] <b>distributed</b> in the dataset?;feature-description;Feature Statistics;feature

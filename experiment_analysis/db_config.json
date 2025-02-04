@@ -1,0 +1,8 @@
+{
+  "POSTGRES_USER": "postgres",
+  "POSTGRES_PASSWORD": "example",
+  "POSTGRES_DB": "prolific_chat_final",
+  "POSTGRES_HOST": "localhost",
+  "prolific_file_name": "prolific_export_static_interactive.csv",
+  "result_folder_path": "data_static_interactive/"
+}

@@ -1,0 +1,112 @@
+# ExplainBot Params
+# Name of the parsing model: {ucinlp/german-t5-small, ucinlp/german-t5-large}
+ExplainBot.parsing_model_name = "ucinlp/german-t5-small"
+
+# Set skip_prompts to true for quicker startup for finetuned models
+# make sure to set to false using few-shot models
+ExplainBot.skip_prompts = True
+
+ExplainBot.use_intent_recognition = "t5"
+ExplainBot.t5_config = "./parsing/t5/gin_configs/t5-large.gin"
+ExplainBot.seed = 0
+
+# Prompt params
+Prompts.prompt_cache_size = 1_000_000
+Prompts.prompt_cache_location = "./cache/german-prompts.pkl"
+Prompts.max_values_per_feature = 2
+Prompts.sentence_transformer_model_name = "all-mpnet-base-v2"
+Prompts.prompt_folder = "./explain/prompts"
+
+Prompts.num_per_knn_prompt_template = 1
+Prompts.num_prompt_template = 7
+
+ExplainBot.model_file_path = "./data/german/german_model_rf.pkl"
+ExplainBot.background_dataset_file_path = "./data/german/german_train.csv"
+ExplainBot.dataset_file_path = "./data/german/german_test.csv"
+ExplainBot.name = "german"
+
+# Dataset feature information
+ExplainBot.dataset_index_column = 0
+ExplainBot.instance_type_naming = "Applicant"
+ExplainBot.target_variable_name = "risk"
+ExplainBot.categorical_features = ['joblevel', 'housingtype', 'savingaccounts', 'creditpurpose', 'checkingaccount']
+ExplainBot.ordinary_features = ['joblevel', 'worklifebalance']
+ExplainBot.numerical_features = ['age', 'creditamount', 'creditduration']
+ExplainBot.remove_underscores = False
+
+# Experiment Helper
+ExperimentHelper.categorical_mapping_path = "./data/german/categorical_mapping.json"
+ExperimentHelper.encoded_col_mapping_path = "./data/german/encoded_col_mapping.json"
+ExperimentHelper.feature_ordering = ['age', 'housingtype', 'joblevel', 'worklifebalance', 'checkingaccount', 'savingaccounts', 'creditpurpose', 'creditamount', 'creditduration']
+ExperimentHelper.actionable_features = ['age', 'joblevel', 'housingtype', 'savingaccounts', 'creditpurpose', 'creditamount', 'creditduration']
+TemplateManager.feature_tooltip_mapping = {
+'age': "The individual's age in years.",
+'job level': "The skill level of the applicant's job, measured in 4 ordered categories, being: unskilled and non-resident, unskilled and resident, skilled, highly skilled.",
+'housing type': "The type of housing the applicant resides in, indicating whether they own, rent or life for free.",
+'saving accounts': "The balance in the applicant's savings account, indicating whether they have a balance and, if so, whether it is little, moderate, quite rich, rich.",
+'checking account': "The balance in the applicant's checking account, indicating whether they have a balance and, if so, whether it is little, moderate, rich.",
+'credit amount': "The requested amount of credit by the applicant in dollar.",
+'credit duration': "The requested duration of the credit by the applicant in months.",
+'credit purpose': "The purpose of the credit requested by the applicant, indicating whether it is for a business, car, domestic appliances, education, furniture/equipment, radio/TV, repairs, vacation/others.",
+'work life balance': "The work-life balance of the applicant, measured in 3 ordered categories, being: poor, fair, good."
+}
+TemplateManager.feature_units_mapping = {
+'age': "",
+'job level': "",
+'housing type': "",
+'saving accounts': "",
+'credit amount': "$",
+'credit duration': "months",
+'credit purpose': "",
+}
+
+TemplateManager.feature_display_name_mapping = {
+'age': "Age",
+'joblevel': "Job Level",
+'housingtype': "Housing Type",
+'savingaccounts': "Saving Accounts",
+'creditamount': "Credit Amount",
+'creditduration': "Credit Duration",
+'creditpurpose': "Credit Purpose",
+'worklifebalance': "Work Life Balance",
+'checkingaccount': "Checking Account"
+}
+
+# Template Manager
+TemplateManager.instance_type_name = "Applicant"
+
+# Explanation Params
+Explanation.max_cache_size = 1_000_000
+
+# MegaExplainer Params
+MegaExplainer.cache_location = "./cache/german-mega-explainer-tabular-logistic-regression.pkl"
+MegaExplainer.use_selection = False
+
+# Tabular Dice Params
+TabularDice.cache_location = "./cache/german-dice-tabular.pkl"
+TabularDice.final_cfe_amount = 3
+
+# Tabular Anchor Params
+TabularAnchor.cache_location = "./cache/german-anchor-tabular.pkl"
+
+# Diverse Instances
+DiverseInstances.cache_location = "./cache/german-diverse-instances.pkl"
+DiverseInstances.instance_amount = 10
+DiverseInstances.dataset_name = "german"
+
+# Test Instances
+TestInstances.cache_location = "./cache/german-test-instances.pkl"
+TestInstances.max_features_to_vary = 2
+
+# Ceteris Paribus
+CeterisParibus.cache_location = "./cache/german-ceteris-paribus.pkl"
+
+# Conversation params
+Conversation.class_names = {0: "high risk", 1: "low risk"}
+Conversation.question_bank_path =  "./data/question_bank.csv"
+
+# Dataset description
+DatasetDescription.dataset_objective = "predict whether someone is a low or high credit risk applicant"
+DatasetDescription.user_study_objective = "whether an individual is a low or high credit risk applicant"
+DatasetDescription.dataset_description = "german credit risk"
+DatasetDescription.model_description = "random forest"

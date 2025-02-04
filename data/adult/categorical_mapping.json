@@ -1,0 +1,38 @@
+{
+  "2": [
+    "Admin",
+    "Blue-Collar",
+    "Military",
+    "Other",
+    "Professional",
+    "Sales",
+    "Service",
+    "White-Collar"
+  ],
+  "1": [
+    "Married",
+    "Single"
+  ],
+  "4": [
+    "Poor",
+    "Fair",
+    "Good"
+  ],
+  "5": [
+    "Primary Education",
+    "Middle School",
+    "High School without Graduation",
+    "High School Graduate",
+    "College without Degree",
+    "Associate's Degrees",
+    "Bachelor's Degree",
+    "Post-graduate Education"
+  ],
+  "6": [
+    "Major Loss (more than 1k$)",
+    "Minor Loss (up to 1k$)",
+    "No Investment",
+    "Minor Gain (up to 5k$)",
+    "Major Gain (above 5k$)"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "correct_predictions": {
+    "25": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "0": [
+      13,
+      100,
+      100,
+      13,
+      100,
+      100,
+      100
+    ],
+    "100": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "incorrect_predictions": {
+    "NaN": null,
+    "job": null,
+    "personal status": null,
+    "other installment plans": "installment plans",
+    "existing credits": null,
+    "foreign worker status": null,
+    "telephone": null
+  },
+  "total_predictions": {
+    "23": 20,
+    "11": 20,
+    "24": 20,
+    "27": 20,
+    "25": 20,
+    "13": 20,
+    "7": 20,
+    "0": 20,
+    "1": 20,
+    "100": 20,
+    "99": 20,
+    "-1": 0
+  },
+  "question_to_id_mapping": {
+    "top3Features": 23,
+    "anchor": 11,
+    "shapAllFeatures": 24,
+    "least3Features": 27,
+    "ceterisParibus": 25,
+    "featureStatistics": 13,
+    "counterfactualAnyChange": 7,
+    "followUp": 0,
+    "whyExplanation": 1,
+    "notXaiMethod": 100,
+    "greeting": 99,
+    "None": -1
+  },
+  "id_to_question_mapping": {
+    "23": "top3Features",
+    "11": "anchor",
+    "24": "shapAllFeatures",
+    "27": "least3Features",
+    "25": "ceterisParibus",
+    "13": "featureStatistics",
+    "7": "counterfactualAnyChange",
+    "0": "followUp",
+    "1": "whyExplanation",
+    "100": "notXaiMethod",
+    "99": "greeting",
+    "-1": "None"
+  },
+  "parsing_errors": {}
+}

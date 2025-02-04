@@ -1,0 +1,97 @@
+# User provided prediction model file path
+ExplainBot.model_file_path = "./data/adult/adult_model_rf.pkl"
+ExplainBot.background_dataset_file_path = "./data/adult/adult_train.csv"
+ExplainBot.dataset_file_path = "./data/adult/adult_test.csv"
+
+ExplainBot.name = "adult census dataset"
+
+ExperimentHelper.categorical_mapping_path = "./data/adult/categorical_mapping.json"
+ExperimentHelper.encoded_col_mapping_path = "./data/adult/encoded_col_mapping.json"
+ExperimentHelper.feature_ordering = ['age', 'educationlevel', 'maritalstatus', 'occupation', 'weeklyworkinghours', 'worklifebalance', 'investmentoutcome']
+ExperimentHelper.actionable_features = ["investmentoutcome", "educationlevel", "occupation"]
+
+# Seed
+ExplainBot.seed = 0
+
+# Dataset feature information
+ExplainBot.dataset_index_column = 0
+ExplainBot.instance_type_naming = "Person"
+ExplainBot.target_variable_name = "income"
+ExplainBot.categorical_features = ['maritalstatus', 'investmentoutcome', 'educationlevel', 'occupation', 'worklifebalance']
+ExplainBot.ordinary_features = ['investmentoutcome', 'educationlevel', 'worklifebalance']
+ExplainBot.numerical_features = ['age', 'weeklyworkinghours']
+ExplainBot.remove_underscores = True
+ExplainBot.use_intent_recognition = "promptBasedLLM" # "promptBasedLLM" or "t5"
+ExplainBot.use_active_dialogue_manager = True
+
+
+# Explanation Params
+Explanation.max_cache_size = 1_000_000
+
+# MegaExplainer Params
+MegaExplainer.cache_location = "./cache/adult-mega-explainer-tabular.pkl"
+MegaExplainer.use_selection = True
+
+# Tabular Dice Params
+TabularDice.cache_location = "./cache/adult-dice-tabular.pkl"
+TabularDice.final_cfe_amount = 3
+
+# Diverse Instances
+DiverseInstances.cache_location = "./cache/adult-diverse-instances.pkl"
+DiverseInstances.instance_amount = 20
+DiverseInstances.dataset_name = "adult"
+
+# Test Instances
+TestInstances.cache_location = "./cache/adult-test-instances.pkl"
+TestInstances.max_features_to_vary = 2
+TestInstances.instance_amount = 20
+
+# Ceteris Paribus
+CeterisParibus.cache_location = "./cache/adult-ceteris-paribus.pkl"
+
+# Tabular Anchor Params
+TabularAnchor.cache_location = "./cache/adult-anchor-tabular.pkl"
+
+# Conversation params
+Conversation.class_names = {0: "under 50k", 1: "over 50k"}
+Conversation.question_bank_path =  "./data/question_bank.csv"
+
+# Dataset description
+DatasetDescription.dataset_objective = "Predict whether an individual earns more than 50k a years or less."
+DatasetDescription.dataset_description = "adult census dataset"
+DatasetDescription.model_description = "random forest model"
+DatasetDescription.user_study_objective = "guess the model's prediction for the shown individual"
+
+# Feature Tooltip
+TemplateManager.feature_tooltip_mapping = {
+    "age": "The individual's age, in years.",
+    "education level": "Highest level of education attained by the individual, categorized as: Dropout, High School grad, Associates, Bachelors grad, Masters grad, Professional Degree or Doctorate/Prof Level.",
+    "weekly working hours": "The total number of hours the individual works in a typical week.",
+    "marital status": "The individual's marital status, indicating whether they are Married or Single. This simplification may encompass a broader range of legal statuses.",
+    "work life balance": "A self-reported assessment of the individual's work-life balance, ranging from poor to excellent. This subjective measure reflects the individual's satisfaction with their ability to balance work and personal life.",
+    "occupation": "The general category of the individual's occupation, such as Admin, Blue-Collar, Military, Professional, Sales, Service or White-Collar",
+    "workclass": "The work class of the person: Government, Private Sector, Self-Employed / Entrepreneurial, Unemployed and Other.",
+    "investment outcome": "The result of the individual's investment activities, categorized as: No investment, Loss, or Gain. This reflects whether the individual has investments and if so, whether they have made a profit or a loss."
+}
+
+# Feature Units
+TemplateManager.feature_units_mapping = {
+    "age": "years",
+    "educationlevel": "",
+    "weekly working hours": "hours",
+    "marital status": "",
+    "work life balance": "",
+    "occupation": "",
+    "workclass": "",
+    "investment outcome": ""
+}
+
+TemplateManager.feature_display_name_mapping = {
+    "age": "Age",
+    "educationlevel": "Education Level",
+    "weeklyworkinghours": "Weekly Working Hours",
+    "maritalstatus": "Marital Status",
+    "worklifebalance": "Work-Life Balance",
+    "occupation": "Occupation",
+    "investmentoutcome": "Investment Outcome"
+}

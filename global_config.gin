@@ -1,0 +1,12 @@
+#######################
+# Global Config
+#######################
+
+# Model + dataset configuration specific file
+GlobalArgs.config = "./configs/adult-config.gin"
+
+# Set the base url to host the demo, if needed
+GlobalArgs.baseurl = "/"
+
+# Logging Settings: will log messages, reactions, and message
+# suggestions to a aws dynamo db, if setup
